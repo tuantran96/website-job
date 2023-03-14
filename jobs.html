@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All jobs</title>
+
+    <!-- font awesome cdn link   -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <!-- custom css file links -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <!-- header section starts -->
+
+        <header class="header">
+            
+            <section class="flex">
+
+                <div id="menu-btn" class="fas fa-bars-staggered"></div>
+
+                <a href="home.html" class="logo"><i class="fas fa-briefcase"></i>Tuan's Job</a>
+
+                <nav class="navbar">
+                    <a href="home.html">home</a>
+                    <a href="about.html">about us</a>
+                    <a href="jobs.html">all jobs</a>
+                    <a href="contact.html">contact us</a>
+                    <a href="login.html">account</a>
+                </nav>
+
+                <a href="#" class="btn" style="margin-top: 0;">post job</a>
+                
+            </section>
+
+        </header>
+
+    <!-- header section ends -->
+
+    <!-- job filter section starts -->
+
+        <section class="job-filter">
+
+            <h1 class="heading">filter jobs</h1>
+
+            <form action="" method="post">
+                <div class="flex">
+                    <div class="box">
+                        <p>job title <span>*</span></p>
+                        <input type="text" name="title" placeholder="keyword, category or company..." required maxlength="20" class="input">
+                    </div>
+
+                    <div class="box">
+                        <p>job location</p>
+                        <input type="text" name="location" placeholder="location, state of country..." required maxlength="20" class="input">
+                    </div>
+                </div>
+                <div class="dropdown-container">
+                    <div class="dropdown">
+                        <input type="text" readonly placeholder="data post" name="date" maxlength="20" class="output">
+                        <div class="lists">
+                            <p class="items">to day</p>
+                            <p class="items">3 days ago</p>
+                            <p class="items">7 days ago</p>
+                            <p class="items">10 days ago</p>
+                            <p class="items">15 days ago</p>
+                            <p class="items">30 days ago</p>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <input type="text" readonly placeholder="data post" name="date" maxlength="20" class="output">
+                        <div class="lists">
+                            <p class="items">10th pass</p>
+                            <p class="items">12th pass</p>
+                            <p class="items">bachlelor's degree</p>
+                            <p class="items">master's degree</p>
+                            <p class="items">diploma</p>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <input type="text" readonly placeholder="data post" name="date" maxlength="20" class="output">
+                        <div class="lists">
+                            <p class="items">day shift</p>
+                            <p class="items">night shift</p>
+                            <p class="items">flexible shift</p>
+                            <p class="items">fixed shift</p>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <input type="text" readonly placeholder="data post" name="date" maxlength="20" class="output">
+                        <div class="lists">
+                            <p class="items">day shift</p>
+                            <p class="items">night shift</p>
+                            <p class="items">flexible shift</p>
+                            <p class="items">fixed shift</p>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <input type="text" readonly placeholder="data post" name="date" maxlength="20" class="output">
+                        <div class="lists">
+                            <p class="items">day shift</p>
+                            <p class="items">night shift</p>
+                            <p class="items">flexible shift</p>
+                            <p class="items">fixed shift</p>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+        </section>
+
+    <!-- job filter section ends -->
+
+    <!-- all jobs section starts -->
+
+        <section class="jobs-container">
+            
+            <h1 class="heading">all jobs</h1>
+
+            <div class="box-container">
+                
+                <div class="box">
+                    <div class="company">
+                        <img src="https://images.unsplash.com/photo-1585076641399-5c06d1b3365f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8aHRtbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                        <div>
+                            <h3>IT infosy co.</h3>
+                            <p>2 days ago</p>
+                        </div>
+                    </div>
+                    <h3 class="job-title">senior web developer</h3>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i><span>Hanoi city, Vietnamese</span></p>
+                    <div class="tags">
+                        <p><i class="fas fa-indian-rupee-sign"></i> <span>part-time</span></p>
+                        <p><i class="fas fa-clock"></i> <span>day shift</span></p>
+                    </div>
+                    <div class="flex-btn">
+                        <a href="view_job.html" class="btn">view details</a>
+                        <button type="submit" class="far fa-heart" name="save"></button>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="company">
+                        <img src="https://images.unsplash.com/photo-1583339793403-3d9b001b6008?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8aHRtbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                        <div>
+                            <h3>IT infosy co.</h3>
+                            <p>2 days ago</p>
+                        </div>
+                    </div>
+                    <h3 class="job-title">senior web developer</h3>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i><span>Hanoi city, Vietnamese</span></p>
+                    <div class="tags">
+                        <p><i class="fas fa-indian-rupee-sign"></i> <span>part-time</span></p>
+                        <p><i class="fas fa-clock"></i> <span>day shift</span></p>
+                    </div>
+                    <div class="flex-btn">
+                        <a href="view_job.html" class="btn">view details</a>
+                        <button type="submit" class="far fa-heart" name="save"></button>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="company">
+                        <img src="https://images.unsplash.com/photo-1518773553398-650c184e0bb3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aHRtbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                        <div>
+                            <h3>IT infosy co.</h3>
+                            <p>2 days ago</p>
+                        </div>
+                    </div>
+                    <h3 class="job-title">senior web developer</h3>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i><span>Hanoi city, Vietnamese</span></p>
+                    <div class="tags">
+                        <p><i class="fas fa-indian-rupee-sign"></i> <span>part-time</span></p>
+                        <p><i class="fas fa-clock"></i> <span>day shift</span></p>
+                    </div>
+                    <div class="flex-btn">
+                        <a href="view_job.html" class="btn">view details</a>
+                        <button type="submit" class="far fa-heart" name="save"></button>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="company">
+                        <img src="https://images.unsplash.com/photo-1505685296765-3a2736de412f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGh0bWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="">
+                        <div>
+                            <h3>IT infosy co.</h3>
+                            <p>2 days ago</p>
+                        </div>
+                    </div>
+                    <h3 class="job-title">senior web developer</h3>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i><span>Hanoi city, Vietnamese</span></p>
+                    <div class="tags">
+                        <p><i class="fas fa-indian-rupee-sign"></i> <span>part-time</span></p>
+                        <p><i class="fas fa-clock"></i> <span>day shift</span></p>
+                    </div>
+                    <div class="flex-btn">
+                        <a href="view_job.html" class="btn">view details</a>
+                        <button type="submit" class="far fa-heart" name="save"></button>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="company">
+                        <img src="https://images.unsplash.com/photo-1529661197280-63dc545366c8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGh0bWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="">
+                        <div>
+                            <h3>IT infosy co.</h3>
+                            <p>2 days ago</p>
+                        </div>
+                    </div>
+                    <h3 class="job-title">senior web developer</h3>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i><span>Hanoi city, Vietnamese</span></p>
+                    <div class="tags">
+                        <p><i class="fas fa-indian-rupee-sign"></i> <span>part-time</span></p>
+                        <p><i class="fas fa-clock"></i> <span>day shift</span></p>
+                    </div>
+                    <div class="flex-btn">
+                        <a href="view_job.html" class="btn">view details</a>
+                        <button type="submit" class="far fa-heart" name="save"></button>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="company">
+                        <img src="https://images.unsplash.com/photo-1516116216624-53e697fedbea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fGh0bWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="">
+                        <div>
+                            <h3>IT infosy co.</h3>
+                            <p>2 days ago</p>
+                        </div>
+                    </div>
+                    <h3 class="job-title">senior web developer</h3>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i><span>Hanoi city, Vietnamese</span></p>
+                    <div class="tags">
+                        <p><i class="fas fa-indian-rupee-sign"></i> <span>part-time</span></p>
+                        <p><i class="fas fa-clock"></i> <span>day shift</span></p>
+                    </div>
+                    <div class="flex-btn">
+                        <a href="view_job.html" class="btn">view details</a>
+                        <button type="submit" class="far fa-heart" name="save"></button>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+    <!-- all jobs section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer section starts -->
+
+        <footer class="footer">
+
+            <section class="grid">
+
+                <div class="box">
+                    <h3>quick links</h3>
+                    <a href="home.html"><i class="fas fa-angle-right"></i> home</a>
+                    <a href="about.html"><i class="fas fa-angle-right"></i> about</a>
+                    <a href="jobs.html"><i class="fas fa-angle-right"></i> jobs</a>
+                    <a href="contact.html"><i class="fas fa-angle-right"></i> contact</a>
+                    <a href="#"><i class="fas fa-angle-right"></i> filter search</a>
+                </div>
+
+                <div class="box">
+                    <h3>extra links</h3>
+                    <a href="#"><i class="fas fa-angle-right"></i> account</a>
+                    <a href="login.html"><i class="fas fa-angle-right"></i> login</a>
+                    <a href="register.html"><i class="fas fa-angle-right"></i> register</a>
+                    <a href="#"><i class="fas fa-angle-right"></i> post jobs</a>
+                    <a href="#"><i class="fas fa-angle-right"></i> dasboard</a>
+                </div>
+
+                <div class="box">
+                    <h3>follow us</h3>
+                    <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+                    <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+                    <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+                    <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+                    <a href="#"> <i class="fab fa-youtube"></i> youtube </a>
+                </div>
+
+            </section>
+
+            <div class="credit">
+                &copy; copyright @ 2023 by <span>Anh Tuan designer</span> | all right reversed !
+            </div>
+
+        </footer>
+
+    <!-- footer section ends -->
+
+
+
+
+
+    <!-- custom js file links -->
+    <script src="./js/script.js"></script>
+
+    
+</body>
+</html>
